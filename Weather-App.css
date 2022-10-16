@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaeaea;
+}
+
+.card{
+    width: 35%;
+    padding: 100px 0px;
+    background-color: #eaeaea;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    border-radius: 50px;
+    border-radius: 53px;
+    background: #eaeaea;
+    box-shadow:  12px 12px 27px #9f9f9f,
+                -12px -12px 27px #ffffff;
+}
+
+.search-bar{
+    margin-bottom: 20px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 0.8rem;
+}
+
+button{
+    padding: 5px;
+    border: none;
+}
+
+.fa-solid, .fa-magnifying-glass{
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+}
+
+.fa-cloud{
+    font-size: 3rem;
+}
+
+.city{
+    margin-bottom: 20px;
+}
+
+.temp{
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.description, .humidity, .wind{
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  font-weight: 550;
+}
